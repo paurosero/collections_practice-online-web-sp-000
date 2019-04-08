@@ -34,7 +34,7 @@ def find_a(words)
 end
 
 def sum_array(interger)
-  integer.inject { |sum, intger| sum + integer}
+  integer.inject { |sum, interger| sum + interger}
 end
 
 def add_s(word)
