@@ -34,7 +34,7 @@ def find_a(words)
 end
 
 def sum_array(interger)
-ß
+
 end
 
 def add_s(word)
