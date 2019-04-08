@@ -26,7 +26,7 @@ end
 
 def kesha_maker(words)
   i = []
-  words.each {|words| words << "$"}
+  words.each.split {|words| words << "$"}
 
 end
 
