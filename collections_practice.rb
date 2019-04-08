@@ -40,6 +40,7 @@ end
 def add_s(words)
   words.each_with_index.collect {|words, index| words + "s"
     if index != 1
-    else words.collect
+      words + "s"
+    else words
     end }
 end
