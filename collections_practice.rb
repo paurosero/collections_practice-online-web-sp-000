@@ -27,11 +27,10 @@ end
 def kesha_maker(words)
   i = []
   words.each {|words| words[2]="$"}
-
 end
 
 def find_a(words)
-  words.detect("a")
+  words.select{}
 end
 
 def sum_array(interger)
