@@ -37,6 +37,6 @@ def sum_array(interger)
   interger.inject { |sum, interger| sum + interger }
 end
 
-def add_s(word)
-  word.each_with_index.collect {|word, index| word.plural "s"}
+def add_s(words)
+  words.each_with_index.collect {|words, index| word "s"}
 end
