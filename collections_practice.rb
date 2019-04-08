@@ -27,7 +27,7 @@ end
 def kesha_maker(words)
   i = []
   words.each {|words| words[1] << "$"}
-  
+
 end
 
 def find_a(words)
