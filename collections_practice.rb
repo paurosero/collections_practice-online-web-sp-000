@@ -38,5 +38,5 @@ def sum_array(interger)
 end
 
 def add_s(words)
-  words.each_with_index.collect {|words, index| "s"}
+  words.each_with_index.collect {|words, index| words}
 end
