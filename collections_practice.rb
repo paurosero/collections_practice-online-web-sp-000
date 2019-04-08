@@ -30,7 +30,7 @@ def kesha_maker(words)
 end
 
 def find_a(words)
-  words.select{}
+  words.select{ |words| "a"}
 end
 
 def sum_array(interger)
